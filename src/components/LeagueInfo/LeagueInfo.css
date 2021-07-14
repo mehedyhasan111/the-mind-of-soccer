@@ -1,0 +1,71 @@
+.card {
+    background-color: blue;
+    border-radius: 10px;
+    width: 70%;
+    color: white;
+    margin-left: 180px;
+   
+    
+
+}
+
+.card p,h2 {
+    margin-left: 20px;
+    
+}
+
+
+
+
+.photo img {
+    width: 30%;
+   
+    
+    
+}
+.icon img{
+    width: 2%;
+}
+
+.text{
+    size: 20px;
+    color: whitesmoke;
+    font-style: italic;
+    width: 70%;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+.logo{
+    width: 20%;
+}
+.hoder {
+    height: 80vh;
+    background-image: url(../Images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.transparent-bg-lite {
+    background: rgba(82, 82, 82, 0.73);
+    padding: 0px;
+    color: #fff;
+    text-align: center;
+    font-size: 26px;
+    height: 80vh;
+    width: 100%;
+    
+}
+.banner-info{
+    height: 100vh;
+}
+.color{
+    background-color: black;
+}
+.icon-awesome img{
+    width: 4%;
+    margin-left: 10px;
+    
+}
+.icon-awesome{
+    margin-left: 600px;
+    
+}

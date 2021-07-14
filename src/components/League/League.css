@@ -1,0 +1,15 @@
+.leagues {
+    background-color: salmon;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+}
+.leagues img{
+    width: 30%;
+}
+
+@media screen and (max-width: 360px){
+    .leagues{
+        width: 118%;
+    }
+}
