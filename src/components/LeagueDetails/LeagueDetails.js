@@ -17,7 +17,7 @@ const LeagueDetails = () => {
     return (
         <div className="league-info">
             {
-                leagueInfo.map(info=> <LeagueInfo info={info}></LeagueInfo>)
+                leagueInfo.map(info=> <LeagueInfo info={info} key={idLeague}></LeagueInfo>)
             }
         
             
