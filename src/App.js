@@ -1,6 +1,5 @@
 import './App.css';
 import Home from './components/Home/Home';
-import Header from './components/Header/Header';
 import '../src/components/Images/banner.png';
 import LeagueDetails from './components/LeagueDetails/LeagueDetails';
 import {
@@ -9,7 +8,6 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import League from './components/League/League';
 
 
 function App() {

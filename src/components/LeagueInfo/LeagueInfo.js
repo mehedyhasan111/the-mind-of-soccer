@@ -4,7 +4,6 @@ import found from '../Images/Icon/found 1.png';
 import country from '../Images/Icon/flag (1) 1.png'
 import gender from '../Images/Icon/male-gender-sign 1.png';
 import soccer from '../Images/Icon/football (1) 1.png'
-import banner from '../Images/Photo/banner.jpg';
 import youtube from '../Images/Icon/YouTube.png';
 import facebook from '../Images/Icon/Facebook.png';
 import twitter from '../Images/Icon/Twitter.png';
@@ -33,18 +32,18 @@ const LeagueInfo = (props) => {
             <div className="card">
                 <h2>{strLeagueAlternate}</h2>
                 <div className="icon">
-                    <p ><img src={found} alt="" srcset="" />  Founded: {intFormedYear}</p>
-                    <p><img src={country} alt="" srcset="" /> Country : {strCountry}</p>
-                    <p><img src={soccer} alt="" srcset="" /> Sports Type : {strSport}</p>
-                    <p><img src={gender} alt="" srcset="" /> Gender : {strGender} </p>
+                    <p ><img src={found} alt=""  />  Founded: {intFormedYear}</p>
+                    <p><img src={country} alt=""  /> Country : {strCountry}</p>
+                    <p><img src={soccer} alt=""  /> Sports Type : {strSport}</p>
+                    <p><img src={gender} alt=""  /> Gender : {strGender} </p>
                 </div>
 
                 <div className="photo">
                 {strGender==="Male"?(
-                    <img src={male} alt="" srcset="" />
+                    <img src={male} alt=""  />
 
                 ):(
-                    <img src={female} alt="" srcset="" />
+                    <img src={female} alt=""  />
 
                 )}
                 </div>
