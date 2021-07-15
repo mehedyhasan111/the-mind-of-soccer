@@ -18,7 +18,7 @@ const League = (props) => {
     .then(res=>res.json())
     .then(data=>setLeagueLogo(data.leagues))
   }
-  ,[])
+  ,[idLeague])
 
   const showNavigation = idLeague=>{
     const url = `/league/${idLeague}`;
